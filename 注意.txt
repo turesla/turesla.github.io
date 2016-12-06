@@ -1,0 +1,25 @@
+先配置.ssh  在建立一个 用户名相同的repository 
+
+yml 配置文件要加空格， 冒号后少空格 。。。。
+
+https://pages.github.com/
+
+https://github.com/hexojs/hexo/issues/1154
+
+npm install hexo-deployer-git --save
+
+type: git
+
+
+
+hexo init
+npm install
+然后再按照要求修改yml文件
+
+
+
+如果还报错，应该就是没有装hexo-deployer-git。
+怎么安装：
+$ npm install hexo-deployer-git --save
+然后再：
+$ hexo deploy
